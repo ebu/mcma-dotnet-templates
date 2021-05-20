@@ -1,14 +1,14 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "mcma",
-  "identity": "Mcma.Module.GoogleCloud.Worker",
-  "name": "MCMA Google Cloud Function Worker",
-  "shortName": "mcmagcapi",
+  "identity": "Mcma.Module.Aws.JobWorker",
+  "name": "MCMA AWS Lambda Job Worker",
+  "shortName": "mcmaawsjobwrkr",
   "tags": {
       "language": "C#",
       "type": "project"
   },
-  "sourceName": "Mcma.Module.GoogleCloud.Worker",
+  "sourceName": "Mcma.Module.Aws.JobWorker",
   "classifications": ["Library"],
   "symbols": {
     "moduleName":{
@@ -153,7 +153,7 @@
             ]
         }
     },
-    "mcmaVersion":{
+    "mcmaVersion": {
       "type": "parameter",
       "replaces": "__mcmaVersion__",
       "defaultValue": "0.14.0"

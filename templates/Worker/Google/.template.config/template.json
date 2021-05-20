@@ -1,14 +1,14 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "mcma",
-  "identity": "Mcma.Module.Aws.Worker",
-  "name": "MCMA AWS Lambda Worker",
-  "shortName": "mcmaawsworker",
+  "identity": "Mcma.Module.GoogleCloud.Worker",
+  "name": "MCMA Google Cloud Function Worker",
+  "shortName": "mcmagcworker",
   "tags": {
       "language": "C#",
       "type": "project"
   },
-  "sourceName": "Mcma.Module.Aws.Worker",
+  "sourceName": "Mcma.Module.GoogleCloud.Worker",
   "classifications": ["Library"],
   "symbols": {
     "moduleName":{
@@ -153,24 +153,10 @@
             ]
         }
     },
-    "mcmaVersion": {
+    "mcmaVersion":{
       "type": "parameter",
       "replaces": "__mcmaVersion__",
       "defaultValue": "0.14.0"
-    },
-    "jobType": {
-      "type": "parameter",
-      "replaces": "__jobType__",
-      "isRequired": true,
-      "choices": [
-        "AI",
-        "Ame",
-        "Capture",
-        "QA",
-        "Transfer",
-        "Transform",
-        "Workflow"
-      ]
     }
   }
 }

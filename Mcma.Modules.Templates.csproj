@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <PackageVersion>1.0</PackageVersion>
+    <PackageId>Mcma.Modules.Templates</PackageId>
+    <Title>MCMA Module Templates</Title>
+    <Authors>Evan Verney-Fink</Authors>
+    <Description>Templates for creating projects in MCMA modules</Description>
+    <PackageTags>dotnet-new;templates;mcma;modules;</PackageTags>
+
+    <TargetFramework>netstandard2.0</TargetFramework>
+
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <NoWarn>$(NoWarn);NU5128</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="**\templates\**\*" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+</Project>

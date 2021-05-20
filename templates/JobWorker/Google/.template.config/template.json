@@ -1,14 +1,14 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "mcma",
-  "identity": "Mcma.Module.Azure.Worker",
-  "name": "MCMA Azure Function App Worker",
-  "shortName": "mcmaazworker",
+  "identity": "Mcma.Module.GoogleCloud.JobWorker",
+  "name": "MCMA Google Cloud Function Job Worker",
+  "shortName": "mcmagcjobwrkr",
   "tags": {
       "language": "C#",
       "type": "project"
   },
-  "sourceName": "Mcma.Module.Azure.Worker",
+  "sourceName": "Mcma.Module.GoogleCloud.JobWorker",
   "classifications": ["Library"],
   "symbols": {
     "moduleName":{
