@@ -5,7 +5,7 @@ using Google.Cloud.Functions.Hosting;
 using Mcma.GoogleCloud.HttpFunctionsApi;
 using Microsoft.AspNetCore.Http;
 
-namespace __mcmaNamespace__.Mcma.Modules.__moduleName__.GoogleCloud.ApiHandler
+namespace __mcmaNamespace__.Mcma.__moduleName__.GoogleCloud.ApiHandler
 {
     [FunctionsStartup(typeof(__moduleName__ApiHandlerStartup))]
     public class __moduleName__ApiHandler : IHttpFunction

@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
 
-namespace __mcmaNamespace__.Mcma.Modules.__moduleName__.Azure.ApiHandler
+namespace __mcmaNamespace__.Mcma.__moduleName__.Azure.ApiHandler
 {
     public class __moduleName__ApiHandler
     {

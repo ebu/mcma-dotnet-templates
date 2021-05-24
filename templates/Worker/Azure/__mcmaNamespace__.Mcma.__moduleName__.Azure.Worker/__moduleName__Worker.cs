@@ -4,7 +4,7 @@ using Mcma.Worker;
 using Mcma.Worker.Common;
 using Microsoft.Azure.WebJobs;
 
-namespace __mcmaNamespace__.Mcma.Modules.__moduleName__.Azure.Worker
+namespace __mcmaNamespace__.Mcma.__moduleName__.Azure.Worker
 {
     public class __moduleName__Worker
     {
@@ -17,7 +17,7 @@ namespace __mcmaNamespace__.Mcma.Modules.__moduleName__.Azure.Worker
 
         [FunctionName(nameof(__moduleName__Worker))]
         public Task ExecuteAsync(
-            [QueueTrigger("__moduleNameSnake__-work-queue", Connection = "MCMA_WORK_QUEUE_STORAGE")] McmaWorkerRequest request,
+            [QueueTrigger("__moduleNameKebab__-work-queue", Connection = "MCMA_WORK_QUEUE_STORAGE")] McmaWorkerRequest request,
             ExecutionContext executionContext)
         {
             return Worker.DoWorkAsync(request, executionContext.InvocationId.ToString());

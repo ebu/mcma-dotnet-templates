@@ -8,13 +8,13 @@ using Microsoft.Extensions.DependencyInjection;
 
 [assembly: LambdaSerializer(typeof(McmaLambdaSerializer))]
 
-namespace __mcmaNamespace__.Mcma.Aws.__moduleName__.ApiHandler
+namespace __mcmaNamespace__.Mcma.__moduleName__.Aws.ApiHandler
 {
     public class __moduleName__ApiHandler : McmaLambdaFunction<McmaLambdaApiHandler, APIGatewayProxyRequest, APIGatewayProxyResponse>
     {
         protected override void Configure(IServiceCollection services)
             => services.AddMcmaLambdaApiHandler(
-                "__moduleNameSnake__-api-handler",
+                "__moduleNameKebab__-api-handler",
                 builder =>
                 {
                     // add routes here

@@ -8,8 +8,12 @@
       "language": "C#",
       "type": "project"
   },
-  "sourceName": "Mcma.Module.GoogleCloud.JobWorker",
-  "classifications": ["Library"],
+  "sourceName": "$safeProjectName$",
+  "classifications": [
+    "MCMA",
+    "GoogleCloud",
+    "JobWorker"
+  ],
   "symbols": {
     "moduleName":{
       "type": "parameter",
@@ -19,7 +23,7 @@
     },
     "moduleNameSnake": {
         "type": "generated",
-        "replaces": "__moduleNameSnake__",
+        "replaces": "__moduleNameKebab__",
         "generator": "regex",
         "dataType": "string",
         "parameters": {

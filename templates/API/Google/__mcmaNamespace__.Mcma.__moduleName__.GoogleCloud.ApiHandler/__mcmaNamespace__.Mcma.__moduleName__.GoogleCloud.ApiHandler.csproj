@@ -1,7 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Mcma.GoogleCloud.ServiceRegistry.ApiHandler</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Mcma.GoogleCloud.Functions.ApiHandler" Version="__mcmaVersion__" />

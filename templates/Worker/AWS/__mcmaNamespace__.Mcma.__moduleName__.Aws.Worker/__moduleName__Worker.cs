@@ -9,13 +9,13 @@ using Microsoft.Extensions.DependencyInjection;
 
 [assembly: LambdaSerializer(typeof(McmaLambdaSerializer))]
 
-namespace Mcma.Modules.__moduleName__.Aws.Worker
+namespace __mcmaNamespace__.Mcma.__moduleName__.Aws.Worker
 {
     public class __moduleName__Worker : McmaLambdaFunction<McmaLambdaWorker, McmaWorkerRequest>
     {
         protected override void Configure(IServiceCollection services)
             => services.AddMcmaAwsLambdaWorker(
-                "__moduleNameSnake__-worker",
+                "__moduleNameKebab__-worker",
                 builder =>
                 {
                     // add job operations here
