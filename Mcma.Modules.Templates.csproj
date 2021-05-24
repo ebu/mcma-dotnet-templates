@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageVersion>1.0.2</PackageVersion>
     <PackageId>Mcma.Modules.Templates</PackageId>
     <Title>MCMA Module Templates</Title>
     <Authors>Evan Verney-Fink</Authors>
